@@ -43,7 +43,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color:  #2e2f42;;
+  color: #2e2f42;
 }
 .header-list {
 }
@@ -106,8 +106,8 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  color:#FFFFFF;
-  background: #4D5AE5;
+  color: #ffffff;
+  background: #4d5ae5;
   cursor: pointer;
 }
 .hero-btn :hover,
@@ -213,7 +213,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color:  #2e2f42;;
+  color: #2e2f42;
 }
 .footer-text {
   font-size: 16px;
@@ -233,23 +233,26 @@ body {
 }
 .filters-btn {
   font-weight: 500;
-font-size: 16px;
-line-height: 1.50;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
-color: var(--color-iris);
-cursor: pointer;
-background-color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--color-iris);
+  cursor: pointer;
+  background-color: #f4f4fd;
 }
 .filters-btn:hover,
 .filters-btnk:focus {
- background-color: var(--color-ocean);
+  background-color: var(--color-ocean);
 }
 .filters-btn:hover,
-.filters-btnk:focus {color: #ffffff;}
-.btn {}
+.filters-btnk:focus {
+  color: #ffffff;
+}
+.btn {
+}
 /* =====portfolio===== */
 .portfolio {
 }
@@ -264,13 +267,13 @@ background-color: #f4f4fd;
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.20;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-text);
 }
 .portfolio-text {
   font-size: 16px;
-line-height: 1.50;
-letter-spacing: 0.02em;
-color: var(--color-features);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-features);
 }
