@@ -8,6 +8,7 @@
 }
 body {
   font-family: roboto, sans-serif;
+  color: #434455;
 }
 
 .list {
@@ -105,12 +106,13 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  color: var(--color-white);
+  color:#FFFFFF;
+  background: #4D5AE5;
   cursor: pointer;
 }
 .hero-btn :hover,
 .hero-btn :focus {
-  color: var(--color-ocean);
+  background: #404bbf;
 }
 .btn {
 }
@@ -246,7 +248,7 @@ background-color: #f4f4fd;
  background-color: var(--color-ocean);
 }
 .filters-btn:hover,
-.filters-btnk:focus {color: var(--color-white)}
+.filters-btnk:focus {color: #ffffff;}
 .btn {}
 /* =====portfolio===== */
 .portfolio {
