@@ -58,11 +58,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-text);
+  color: var(--color-features);
 }
 .header-link:hover,
 .header-link:focus {
-  color: var(--color-ocean);
+  color: #404bbf 
 }
 .address {
 }
@@ -115,9 +115,9 @@ body {
   background: #4d5ae5;
   cursor: pointer;
 }
-.hero-btn :hover{ background: #404bbf;}
+.hero-btn :hover{ background:#404BBF;}
 .hero-btn :focus {
-  background: #404bbf;
+  background: #404BBF;
 }
 .btn {
 }
