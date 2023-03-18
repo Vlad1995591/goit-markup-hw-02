@@ -7,8 +7,9 @@
   --color-features: #434455;
 }
 body {
-  font-family: roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: var(--color-white)
 }
 
 .list {
@@ -36,6 +37,7 @@ body {
 }
 .header-logo-studio {
   font-family: Raleway, sans-serif;
+  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -100,6 +102,7 @@ body {
   color: var(--color-white);
 }
 .hero-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -110,7 +113,7 @@ body {
   background: #4d5ae5;
   cursor: pointer;
 }
-.hero-btn :hover,
+.hero-btn :hover{ background: #404bbf;}
 .hero-btn :focus {
   background: #404bbf;
 }
@@ -156,6 +159,7 @@ body {
 }
 /* ============time============== */
 .time {
+  background: #F4F4FD;
 }
 .time-title {
   font-weight: 700;
@@ -171,6 +175,7 @@ body {
 .list {
 }
 .time-item {
+  background-color: #FFFFFF
 }
 .item {
 }
@@ -192,6 +197,7 @@ body {
 /* =============footer============== */
 .footer {
   background: var(--color-background-main);
+
 }
 .footer-logo {
   font-family: Raleway, sans-serif;
@@ -213,7 +219,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #f4f4fd;
 }
 .footer-text {
   font-size: 16px;
@@ -233,6 +239,7 @@ body {
 }
 .filters-btn {
   font-weight: 500;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   display: flex;
