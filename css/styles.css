@@ -47,7 +47,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--color-text);
 }
 .header-list {
 }
@@ -64,7 +64,7 @@ body {
 .header-link:focus {
   color: #404bbf 
 }
-.address {
+.address {font-style: normal
 }
 .address-list {
 }
