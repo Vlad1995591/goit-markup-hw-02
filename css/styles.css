@@ -9,7 +9,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: var(--color-white)
+  background-color: var(--color-white);
 }
 
 .list {
@@ -26,8 +26,7 @@ body {
 .header-navigation {
 }
 .header-logo {
-  font-family: Raleway, 
-  sans-serif;
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -59,13 +58,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-features);
+  color: var(--color-text);
 }
 .header-link:hover,
 .header-link:focus {
-  color: #404bbf 
+  color: #404bbf;
 }
-.address {font-style: normal
+.address {
+  font-style: normal;
 }
 .address-list {
 }
@@ -116,9 +116,11 @@ body {
   background: #4d5ae5;
   cursor: pointer;
 }
-.hero-btn :hover{ background:#404BBF;}
+.hero-btn :hover {
+  background: #404bbf;
+}
 .hero-btn :focus {
-  background: #404BBF;
+  background: #404bbf;
 }
 .btn {
 }
@@ -162,7 +164,7 @@ body {
 }
 /* ============time============== */
 .time {
-  background: #F4F4FD;
+  background: #f4f4fd;
 }
 .time-title {
   font-weight: 700;
@@ -178,7 +180,7 @@ body {
 .list {
 }
 .time-item {
-  background-color: #FFFFFF
+  background-color: #ffffff;
 }
 .item {
 }
@@ -200,7 +202,6 @@ body {
 /* =============footer============== */
 .footer {
   background: var(--color-background-main);
-
 }
 .footer-logo {
   font-family: Raleway, sans-serif;
@@ -241,6 +242,7 @@ body {
 .link {
 }
 .filters-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
@@ -254,11 +256,11 @@ body {
   background-color: #f4f4fd;
 }
 .filters-btn:hover,
-.filters-btnk:focus {
+.filters-btn:focus {
   background-color: var(--color-ocean);
 }
 .filters-btn:hover,
-.filters-btnk:focus {
+.filters-btn:focus {
   color: #ffffff;
 }
 .btn {
