@@ -116,10 +116,10 @@ body {
   background: #4d5ae5;
   cursor: pointer;
 }
-.btn :hover {
+.hero-btn:hover {
   background-color: #404BBF;
 }
-.btn :focus {
+.hero-btn:focus {
   background-color: #404BBF;
 }
 .btn {
@@ -255,7 +255,9 @@ body {
   cursor: pointer;
   background-color: #f4f4fd;
 }
-.filters-btn:hover,
+.filters-btn:hover{
+  background-color: #404BBF;
+}
 .filters-btn:focus {
   background-color: #404BBF;
 }
