@@ -117,10 +117,10 @@ body {
   cursor: pointer;
 }
 .hero-btn :hover {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 .hero-btn :focus {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 .btn {
 }
