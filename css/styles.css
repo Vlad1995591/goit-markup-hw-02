@@ -1,10 +1,7 @@
 :root {
-  --color-body:  #FFFFFF;
+  --color-body: #ffffff;
   --color-footer: #2e2f42;
-  --color-
-  --color-
-  --color-text:  
-  --color-
+  --color-header: #434455;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -35,7 +32,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color:  #4d5ae5;
+  color: #4d5ae5;
 }
 .header-logo-studio {
   font-family: Raleway, sans-serif;
@@ -47,7 +44,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color:  #2e2f42;
+  color: #2e2f42;
 }
 .header-list {
 }
@@ -58,7 +55,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:  #2e2f42;
+  color: #2e2f42;
 }
 .header-link:hover,
 .header-link:focus {
@@ -75,7 +72,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-header);
 }
 .address-mailto:hover,
 .address-mailto:focus {
@@ -117,10 +114,10 @@ body {
   cursor: pointer;
 }
 .hero-btn:hover {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 .hero-btn:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 .btn {
 }
@@ -152,7 +149,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color:  #2e2f42;
+  color: #2e2f42;
 }
 .doing-list {
 }
@@ -173,7 +170,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color:  #2e2f42;
+  color: #2e2f42;
 }
 .time-list {
 }
@@ -190,7 +187,7 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  color:  #2e2f42;
+  color: #2e2f42;
 }
 .time-text-prof {
   font-size: 16px;
@@ -201,7 +198,7 @@ body {
 }
 /* =============footer============== */
 .footer {
-  background-color:var(--color-footer);
+  background-color: var(--color-footer);
 }
 .footer-logo {
   font-family: Raleway, sans-serif;
@@ -212,7 +209,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color:  #4d5ae5;
+  color: #4d5ae5;
 }
 .footer-logo-studio {
   font-family: Raleway, sans-serif;
@@ -251,15 +248,15 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color:  #4d5ae5;;
+  color: #4d5ae5;
   cursor: pointer;
   background-color: #f4f4fd;
 }
-.filters-btn:hover{
-  background-color: #404BBF;
+.filters-btn:hover {
+  background-color: #404bbf;
 }
 .filters-btn:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 .filters-btn:hover,
 .filters-btn:focus {
@@ -283,7 +280,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color:  #2e2f42;
+  color: #2e2f42;
 }
 .portfolio-text {
   font-size: 16px;
@@ -291,4 +288,3 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
