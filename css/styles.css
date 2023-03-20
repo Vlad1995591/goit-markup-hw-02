@@ -116,10 +116,10 @@ body {
   background: #4d5ae5;
   cursor: pointer;
 }
-.hero-btn :hover {
+.btn :hover {
   background-color: #404bbf;
 }
-.hero-btn :focus {
+.btn :focus {
   background-color: #404bbf;
 }
 .btn {
