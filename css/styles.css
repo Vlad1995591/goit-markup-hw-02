@@ -1,9 +1,9 @@
 :root {
-  --color-body:  #ffffff;
+  --color-body:  #FFFFFF;
+  --color-footer: #2e2f42;
   --color-
   --color-
-  --color-
-  --color-text:  #2e2f42
+  --color-text:  
   --color-
 }
 body {
@@ -93,7 +93,7 @@ body {
 }
 /* ========HERO============*/
 .hero {
-  background: #2e2f42
+  background: #2e2f42;
 }
 
 .hero-title {
@@ -117,10 +117,10 @@ body {
   cursor: pointer;
 }
 .btn :hover {
-  background-color: #404bbf;
+  background-color: #404BBF;
 }
 .btn :focus {
-  background-color: #404bbf;
+  background-color: #404BBF;
 }
 .btn {
 }
@@ -201,7 +201,7 @@ body {
 }
 /* =============footer============== */
 .footer {
-  background: v#2e2f42;
+  background-color:var(--color-footer);
 }
 .footer-logo {
   font-family: Raleway, sans-serif;
@@ -257,7 +257,7 @@ body {
 }
 .filters-btn:hover,
 .filters-btn:focus {
-  background-color: v#404bbf;
+  background-color: #404BBF;
 }
 .filters-btn:hover,
 .filters-btn:focus {
@@ -289,3 +289,4 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
