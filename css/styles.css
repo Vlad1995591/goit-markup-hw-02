@@ -74,8 +74,8 @@ body {
   letter-spacing: 0.02em;
   color: v;
 }
-.mailto:hover,
-.mailto:focus {
+.address-mailto:hover,
+.address-mailto:focus {
   color: #404bbf;
 }
 .address-link {
@@ -84,8 +84,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-header);
 }
-.phone:hover,
-.phone:focus {
+.address-phone:hover,
+.address-phone:focus {
   color: #404bbf;
 }
 /* ========HERO============*/
