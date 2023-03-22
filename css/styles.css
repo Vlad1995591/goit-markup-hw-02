@@ -1,4 +1,5 @@
 :root {
+  --body: #434455;
   --color-body: #ffffff;
   --color-footer: #2e2f42;
   --color-header: #434455;
@@ -6,6 +7,7 @@
   --header-link-color: #404bbf;
   --logo: #4d5ae5;
   --logo-studio: #2e2f42;
+  --address-link: #404bbf;
   --hero: #2e2f42;
   --hero-title: #ffffff;
   --hero-btn: #404bbf;
@@ -29,7 +31,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--body);
   background-color: var(--color-body);
 }
 
@@ -100,7 +102,7 @@ body {
 }
 .address-link:hover,
 .address-link:focus {
-  color: #404bbf;
+  color: var(--address-link);
 }
 
 /* ========HERO============*/
